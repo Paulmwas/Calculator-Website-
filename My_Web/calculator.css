@@ -1,0 +1,37 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    flex-direction: column;
+}
+
+.screen {
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 300px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.operator {
+    background-color: #f9a602;
+    color: #ffffff;
+}
+
+.zero {
+    grid-column: span 2;
+}
